@@ -1,0 +1,19 @@
+.intro{
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+text-align: center;
+/* padding: 1rem; */
+
+}
+.homePict{
+  position: relative;
+  width: 100%;
+  /* height: 320px; */
+  aspect-ratio: 16/10;
+}
+.title{
+  font-family: var(--font-pacifico);
+
+}

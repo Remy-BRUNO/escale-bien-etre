@@ -1,0 +1,16 @@
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--foreground);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
