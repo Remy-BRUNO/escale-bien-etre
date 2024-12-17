@@ -1,16 +1,16 @@
-.intro {
-  margin-top: 6rem;
+.giftCard {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* padding: 1rem; */
+  max-width: 90vw;
+  margin: 0 auto;
+  gap: 2rem;
+  padding-bottom: 3rem;
 }
-.homePict {
+
+.giftCardPicture {
   position: relative;
   width: 100%;
   aspect-ratio: 16/10;
-}
-.homeText {
-  width: 90vw;
 }

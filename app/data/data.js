@@ -9,7 +9,7 @@ export const homeData = {
     description:
       "Une bulle de bien être, un bonheur intense, un moment à soi de relaxation profonde et de lâcher prise venez découvrir les bienfaits du massages entre mes mains douces et bienveillantes",
   },
-  Benefits: {
+  benefits: {
     title: "Les Prestations",
 
     outro:
@@ -22,7 +22,7 @@ export const giftCarddata = {
   intro: "Offrir un massage… Le cadeau parfait pour toutes les occasions!",
   picture: {
     url: "https://www.freepik.com/free-photo/beautiful-gift-voucher-with-decoration_21843747.htm#fromView=search&page=1&position=29&uuid=d9e2d338-abdf-48de-808c-4fd9b6a7087c",
-    src: "",
+    src: "/giftCard.webp",
   },
   description:
     "Un plaisir bien-être à offrir.Au choix, Californien, pierres chaudes, ayurvédique, réflexologie ... Une carte cadeau massage, pour lui, pour elle, c&apos;est une réussite assurée, un moment de plaisir garanti.Alors, en un clic, vous pouvez vous faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou bien, munissez vous de votre code unique lors de notre rendez-vous.",
@@ -38,6 +38,54 @@ export const benefitsData = {
   ambiences: {
     title: "Les ambiances",
     intro: "",
+    ambienceData: [
+      {
+        id: 1,
+        title: "Massage du monde",
+        intro: "Californien - Ayurvédique - Polynésien (Lomi Lomi).",
+        picture: {
+          url: "https://www.freepik.com/free-photo/beauty-spa_10788414.htm",
+          src: "/massage-du-monde.webp",
+        },
+        description:
+          "Les bienfaits du massage sont connus depuis des millénaires. Au 4 coins du monde se développent des techniques qui apportent le repos et le bien-être. Découvrez les principaux massages du monde. Un voyage sensoriel dont vous reviendrez détendue!",
+      },
+      {
+        id: 2,
+        title: "Massage Eveil & Sens",
+        intro:
+          "Aux pierres chaudes - Aux tampons herbeux - Aux bols Kansu - A la bougie - À l'huile chaude.",
+        picture: {
+          url: "https://www.freepik.com/free-photo/beautiful-arrangement-with-spa-stones-candles_5530864.htm",
+          src: "/massage-eveil.webp",
+        },
+        description:
+          "Le corps et l'esprit perçoit la chaleur, la pression, la couleur, le son et l'odeur.Vivre vos 5 sens à travers un massage vous éveille , vous apporte un instant magique et mémorable!",
+      },
+      {
+        id: 3,
+        title: "Massage découverte",
+        intro: "Instant pour soi - Modelage  liftant visage & buste.",
+        picture: {
+          url: "https://www.freepik.com/free-photo/young-woman-relax-luxury-spa_5953915.htm",
+          src: "/massage-decouverte.webp",
+        },
+        description:
+          "Un instant pour soi, une ambiance, une musique, vous avez besoin d'être relaxé et cocooner ce massage personnalisé est fait pour vous!",
+      },
+      {
+        id: 4,
+        title: "Massage Énergétique",
+        intro:
+          "Réflexologie plantaire - Réflexologie palmaire - Tui Na minceur - Shiatsu - Amma Assi.",
+        picture: {
+          url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224720.htm",
+          src: "/massage-energetique.webp",
+        },
+        description:
+          "L&apos; énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde c&apos;est ce massage qu&apos;il vous convient! ",
+      },
+    ],
     ambience1: {
       title: "Massage du monde",
       intro: "Californien - Ayurvédique - Polynésien (Lomi Lomi).",

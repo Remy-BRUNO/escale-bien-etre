@@ -84,6 +84,7 @@ export default function Navbar({ children }) {
             </li>
           </ul>
           <button
+            type="button"
             className={
               isOpen === false
                 ? styles.hamburger

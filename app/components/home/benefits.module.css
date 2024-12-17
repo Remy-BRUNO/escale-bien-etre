@@ -1,0 +1,33 @@
+.benefits {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 90vw;
+  align-items: center;
+  gap: 2rem;
+}
+.ambiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+.ambience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.ambiencePicture {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+}
+.outro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
