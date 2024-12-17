@@ -12,8 +12,11 @@
   align-items: center;
   gap: 2rem;
   text-align: center;
+  width: 100%;
 }
 .ambience {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +25,7 @@
 .ambiencePicture {
   position: relative;
   width: 100%;
+  max-width: 500px;
   aspect-ratio: 16/10;
 }
 .outro {
