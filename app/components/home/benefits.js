@@ -25,7 +25,7 @@ export default function Benefits() {
               </div>
               <h4>{title} </h4>
               <p>{intro}</p>
-              <Buttons text={"En savoir plus"} href={"/"} />
+              <Buttons text={"En savoir plus"} href={"/service"} />
               <div className="bar"></div>
             </div>
           )
