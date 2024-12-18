@@ -5,17 +5,17 @@ import Buttons from "@/app/ui/buttons"
 
 export default function Benefits() {
   const { benefits } = homeData
-  const { ambiences } = benefitsData
-  const ambianceArray = ambiences.ambienceData
+  const { ambiances } = benefitsData
+  const ambianceArray = ambiances.ambianceData
   return (
     <section className={styles.benefits}>
       <h3>{benefits.title}</h3>
-      <div className={styles.ambiences}>
-        {ambianceArray.map((ambience) => {
-          const { title, intro, picture, id } = ambience
+      <div className={styles.ambiances}>
+        {ambianceArray.map((ambiance) => {
+          const { title, intro, picture, id } = ambiance
           return (
-            <div key={id} className={styles.ambience}>
-              <div className={styles.ambiencePicture}>
+            <div key={id} className={styles.ambiance}>
+              <div className={styles.ambiancePicture}>
                 <Image
                   src={picture.src}
                   alt={title}

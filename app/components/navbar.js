@@ -39,7 +39,7 @@ export default function Navbar({ children }) {
             </li>
 
             <li className={styles.navitem}>
-              <Link href="/benefits">
+              <Link href="/service">
                 <p
                   className={
                     isOpen === false
