@@ -92,48 +92,6 @@ export const benefitsData = {
           "L' énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde c'est ce massage qu'il vous convient! ",
       },
     ],
-    ambiance1: {
-      title: "Massage du monde",
-      intro: "Californien - Ayurvédique - Polynésien (Lomi Lomi).",
-      picture: {
-        url: "https://www.freepik.com/free-photo/beauty-spa_10788414.htm",
-        src: "",
-      },
-      description:
-        "Les bienfaits du massage sont connus depuis des millénaires. Au 4 coins du monde se développent des techniques qui apportent le repos et le bien-être. Découvrez les principaux massages du monde. Un voyage sensoriel dont vous reviendrez détendue!",
-    },
-    ambiance2: {
-      title: "Massage Eveil & Sens",
-      intro:
-        "Aux pierres chaudes - Aux tampons herbeux - Aux bols Kansu - A la bougie - À l'huile chaude.",
-      picture: {
-        url: "https://www.freepik.com/free-photo/beautiful-arrangement-with-spa-stones-candles_5530864.htm",
-        src: "",
-      },
-      description:
-        "Le corps et l'esprit perçoit la chaleur, la pression, la couleur, le son et l'odeur.Vivre vos 5 sens à travers un massage vous éveille , vous apporte un instant magique et mémorable!",
-    },
-    ambiance3: {
-      title: "Massage découverte",
-      intro: "Instant pour soi - Modelage  liftant visage & buste.",
-      picture: {
-        url: "https://www.freepik.com/free-photo/young-woman-relax-luxury-spa_5953915.htm",
-        src: "",
-      },
-      description:
-        "Un instant pour soi, une ambiance, une musique, vous avez besoin d'être relaxé et cocooner ce massage personnalisé est fait pour vous!",
-    },
-    ambiance4: {
-      title: "Massage Énergétique",
-      intro:
-        "Réflexologie plantaire - Réflexologie palmaire - Tui Na minceur - Shiatsu - Amma Assi.",
-      picture: {
-        url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224720.htm",
-        src: "",
-      },
-      description:
-        "L' énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde c'est ce massage qu'il vous convient! ",
-    },
   },
   massages: [
     // massage du monde
@@ -206,7 +164,7 @@ export const benefitsData = {
 
       description:
         "Ce modelage offre une sensation de douceur, de détente intense et profonde par ces huiles et ces diverses plantes aromatiques et médicinales chaudes.Apaise et lève les blocages musculaires, assouplit la peau, réduit le stress, améliore le sommeil et apporte une bonne circulation du sang.Le parfum des herbes aromatiques procure une relaxation totale du corps et de l'esprit et transmet un équilibre complet.",
-      prices: { firstPrice: "1h - 70", secondPrice: "1h30 - 90€" },
+      prices: { firstPrice: "1h - 70€", secondPrice: "1h30 - 90€" },
     },
     {
       environment: "massage eveil & sens",
@@ -218,11 +176,10 @@ export const benefitsData = {
         src: "/kansu.webp",
       },
 
-      description:
-        "Cette pratique de massage à l'aide de Bols Kansu fabriqué de matières généreuses cuivre, bronze, zinc, or et argent apporte un calme et une sérénité profonde.Il diminue angoisse, agitation et nervosité anxieuses ainsi que le manque d'énergie.Il rétablit l'équilibre et l'harmonie dans le corps et l'esprit.Il contribue également à un sommeil de meilleure qualité.<b>Il peut être associé à un massage ayurvédique.</b>",
+      description: `Cette pratique de massage à l'aide de Bols Kansu fabriqué de matières généreuses cuivre, bronze, zinc, or et argent apporte un calme et une sérénité profonde.Il diminue angoisse, agitation et nervosité anxieuses ainsi que le manque d'énergie.Il rétablit l'équilibre et l'harmonie dans le corps et l'esprit.Il contribue également à un sommeil de meilleure qualité. Il peut être associé à un massage ayurvédique.`,
       prices: {
-        firstPrice: "<u>pied/main</u> 30min - 40€",
-        secondPrice: "<u>option Ayurvédique</u> 1h - 85€",
+        firstPrice: `<u>pied/main</u> 30min - 40€`,
+        secondPrice: `<u>option Ayurvédique</u> 1h - 85€`,
       },
     },
     {
@@ -368,3 +325,60 @@ export const aboutData = {
   description:
     "Sarah Laurent, certifiée ”praticienne massage bien-être” vous souhaite la bienvenue sur son site et dans son espace cocooning.Bienveillante, à l'écoute, délicate, attentionnée, depuis plus de 20 ans dans le domaine de la santé auprès d'un public toutes générations, je vous propose de découvrir mes massages relaxants, apaisants ou dynamisants.Venez profiter de mon savoir-être et savoir-faire réunis pour une escale bien-être",
 }
+
+export const pricesData = [
+  {
+    title: "Massage du monde",
+    massages: [
+      {
+        name: "Californien, Ayurvédique, Polynésien (Lomi Lomi)",
+        price: ["1h - 70€", "1h30 - 90€"],
+      },
+    ],
+  },
+  {
+    title: "Massage Eveil & Sens",
+    massages: [
+      { name: "Aux pierres chaudes", price: ["1h - 85€", "1h30 - 105€"] },
+      { name: "Aux tampons herbeux", price: ["1h - 70€", "1h30 - 90€"] },
+      {
+        name: "Aux Bols Kansu",
+        price: [
+          `pied/main 
+        30min - 40€`,
+          `option Ayurvédique 
+          1h - 85€`,
+        ],
+      },
+      {
+        name: "à la bougie",
+        price: ["1h - 70€", "1h30 - 90€"],
+      },
+      {
+        name: "à l'huile chaude",
+        price: ["1h - 70€", "1h30 - 90€"],
+      },
+    ],
+  },
+  {
+    title: "Massage découverte",
+    massages: [
+      {
+        name: "Instant pour soi, Modelage liftant visage & buste",
+        price: ["30 min - 40€", "1h - 60€"],
+      },
+    ],
+  },
+  {
+    title: "Massage Énergétique",
+    massages: [
+      {
+        name: "Réflexologie Plantaire, Réflexologie Palmaire",
+        price: ["50 min - 55€", "Forfait 3 séances 125€"],
+      },
+      { name: "Tui Na minceur", price: ["1h - 70€", "Forfait 3 séances 180€"] },
+      { name: "Shiatsu", price: ["1h - 60€", "Forfait 3 séances 150€"] },
+      { name: "Amma Assi", price: ["30 min - 40€"] },
+    ],
+  },
+]

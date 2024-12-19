@@ -25,30 +25,44 @@ export default function Footer() {
           <p>53 rue Simone Veil 73000 Bassens</p>
         </div>
         <div className={styles.socialsLogo}>
-          <Image
-            width={64}
-            height={64}
-            alt="icon social"
-            src={"/social-email.png"}
-          />
-          <Image
-            width={64}
-            height={64}
-            alt="icon social"
-            src={"/social-phone.png"}
-          />
-          <Image
-            width={64}
-            height={64}
-            alt="icon social"
-            src={"/social-fb.png"}
-          />
-          <Image
-            width={64}
-            height={64}
-            alt="icon social"
-            src={"/social-insta.png"}
-          />
+          <Link href="mailto:laurentsarahpro14@gmail.com">
+            <Image
+              width={64}
+              height={64}
+              alt="icon social"
+              src={"/social-email.png"}
+            />
+          </Link>
+          <Link href="tel:+33628770421">
+            <Image
+              width={64}
+              height={64}
+              alt="icon social"
+              src={"/social-phone.png"}
+            />
+          </Link>
+          <Link
+            href="https://www.facebook.com/profile.php?id=61570861049468"
+            target="_blank"
+          >
+            <Image
+              width={64}
+              height={64}
+              alt="icon social"
+              src={"/social-fb.png"}
+            />
+          </Link>
+          <Link
+            href="https://www.instagram.com/escale_bienetre_massage/profilecard/?igsh=YmJqcGl0dndzNnNv"
+            target="_blank"
+          >
+            <Image
+              width={64}
+              height={64}
+              alt="icon social"
+              src={"/social-insta.png"}
+            />
+          </Link>
         </div>
         <div>
           <Link href="/legal">Mentions legal/CGS</Link>

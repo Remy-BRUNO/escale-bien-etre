@@ -1,0 +1,25 @@
+.tarifs,
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.prices {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.subtitle {
+  text-transform: capitalize;
+}
