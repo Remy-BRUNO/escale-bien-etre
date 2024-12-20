@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 import styles from "./navbar.module.css"
 import Link from "next/link"
 import { useState } from "react"
@@ -69,7 +70,7 @@ export default function Navbar({ children }) {
             </li>
 
             <li className={styles.navitem}>
-              <Link href="/contact">
+              <Link href="/about">
                 <p
                   className={
                     isOpen === false
@@ -96,6 +97,30 @@ export default function Navbar({ children }) {
             <span className={styles.bar}></span>
             <span className={styles.bar}></span>
           </button>
+          <div className={styles.socialLinks}>
+            <Link
+              href="https://www.facebook.com/profile.php?id=61570861049468"
+              target="_blank"
+            >
+              <Image
+                width={32}
+                height={32}
+                alt="icon social"
+                src={"/social-fb.png"}
+              />
+            </Link>
+            <Link
+              href="https://www.instagram.com/escale_bienetre_massage/profilecard/?igsh=YmJqcGl0dndzNnNv"
+              target="_blank"
+            >
+              <Image
+                width={32}
+                height={32}
+                alt="icon social"
+                src={"/social-insta.png"}
+              />
+            </Link>
+          </div>
         </nav>
       </header>
       {children}

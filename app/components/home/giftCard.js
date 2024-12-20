@@ -15,9 +15,10 @@ export default function GiftCard() {
           src={picture.src}
           fill
           style={{ objectFit: "cover" }}
+          sizes="(max-width: 500px) 100vw"
         />
       </div>
-      <Buttons href={"/"} text={"Offrir"} />
+      <Buttons href={"/prices"} text={"Offrir"} />
     </div>
   )
 }

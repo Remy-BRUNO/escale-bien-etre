@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.wave1}>
         <div className={styles.contact}>
-          <p>Laurent Sarah</p>
+          <h4>Laurent Sarah</h4>
           <a href="mailto:laurentsarahpro14@gmail.com">
             📩 laurentsarahpro14@gmail.com
           </a>
@@ -22,7 +22,15 @@ export default function Footer() {
         </div>
         <div>
           <p>Du Lundi au Samedi de 9h à 18h</p>
-          <p>53 rue Simone Veil 73000 Bassens</p>
+          <p>
+            <Image
+              src={"/pictoGps.png"}
+              width={16}
+              height={16}
+              alt="picto gps"
+            />{" "}
+            53 rue Simone Veil 73000 Bassens
+          </p>
         </div>
         <div className={styles.socialsLogo}>
           <Link href="mailto:laurentsarahpro14@gmail.com">
@@ -64,8 +72,15 @@ export default function Footer() {
             />
           </Link>
         </div>
-        <div>
-          <Link href="/legal">Mentions legal/CGS</Link>
+        <div className={styles.endPoint}>
+          <div>
+            <Link href="/mention">Mentions legal/CGS</Link>
+          </div>
+
+          <p className={styles.freepik}>
+            Pictures Designed by
+            <a href={"http://www.freepik.com/"}> Freepik</a>
+          </p>
         </div>
       </div>
       <div className={styles.wave2}></div>

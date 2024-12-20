@@ -20,13 +20,16 @@ export default function Benefits() {
                   src={picture.src}
                   alt={title}
                   fill
+                  sizes="(max-width: 500px) 100vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
-              <h4>{title} </h4>
-              <p>{intro}</p>
-              <Buttons text={"En savoir plus"} href={"/service"} />
-              <div className="bar"></div>
+              <div className={styles.info}>
+                <h4>{title} </h4>
+                <p>{intro}</p>
+                <Buttons text={"En savoir plus"} href={"/service"} />
+                <div className="bar"></div>
+              </div>
             </div>
           )
         })}

@@ -4,7 +4,9 @@
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  /* margin-top: 6rem; */
-  /* width: 90vw; */
+  margin-top: 6rem;
+  width: 90vw;
   white-space: pre-line;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }

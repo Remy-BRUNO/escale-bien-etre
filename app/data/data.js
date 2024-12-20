@@ -320,12 +320,6 @@ export const benefitsData = {
   ],
 }
 
-export const aboutData = {
-  title: "À propos de Escale Bien-être",
-  description:
-    "Sarah Laurent, certifiée ”praticienne massage bien-être” vous souhaite la bienvenue sur son site et dans son espace cocooning.Bienveillante, à l'écoute, délicate, attentionnée, depuis plus de 20 ans dans le domaine de la santé auprès d'un public toutes générations, je vous propose de découvrir mes massages relaxants, apaisants ou dynamisants.Venez profiter de mon savoir-être et savoir-faire réunis pour une escale bien-être",
-}
-
 export const pricesData = [
   {
     title: "Massage du monde",
@@ -382,3 +376,20 @@ export const pricesData = [
     ],
   },
 ]
+
+export const aboutData = {
+  title: `À propos de 
+  Escale Bien-être`,
+  description:
+    "Sarah Laurent, certifiée ”praticienne massage bien-être” vous souhaite la bienvenue sur son site et dans son espace cocooning.Bienveillante, à l'écoute, délicate, attentionnée, depuis plus de 20 ans dans le domaine de la santé auprès d'un public toutes générations, je vous propose de découvrir mes massages relaxants, apaisants ou dynamisants.Venez profiter de mon savoir-être et savoir-faire réunis pour une escale bien-être",
+  info: `Séances sur rendez-vous
+  du Mardi au Samedi de 10h à 12h et de 14h à 19h.
+
+à votre domicile sur le secteur : Chambéry et alentours.
+
+Pour prendre RDV, par téléphone :
+
+06.28.77.04.21
+
+Vous pouvez également me contacter par mail.`,
+}

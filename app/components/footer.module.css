@@ -376,7 +376,7 @@
 .logo {
   position: relative;
   width: 100px;
-  height: 100px;
+  aspect-ratio: 1/1;
 }
 .socialsLogo {
   display: flex;
@@ -384,4 +384,29 @@
   justify-content: space-around;
   align-items: center;
   /* gap: 1rem; */
+}
+.endPoint {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.freepik {
+  display: flex;
+}
+@media only screen and (min-width: 900px) {
+  .wave1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .wave2 {
+    height: 280px;
+  }
+  .logo {
+    width: 200px;
+  }
+  .socialsLogo {
+    justify-content: flex-end;
+    gap: 1rem;
+  }
 }
