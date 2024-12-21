@@ -65,8 +65,8 @@ export const benefitsData = {
           url: "https://www.freepik.com/free-photo/beautiful-arrangement-with-spa-stones-candles_5530864.htm",
           src: "/massage-eveil.webp",
         },
-        description: `Le corps et l'esprit perçoit la chaleur , la pression , la couleur , le son et l'odeur.
-          Vivre vos 5 sens à travers un massage vous éveille , vous apporte un instant magique et mémorable!`,
+        description: `Le corps et l'esprit perçoit la chaleur, la pression, la couleur, le son et l'odeur.
+          Vivre vos 5 sens à travers un massage vous éveille, vous apporte un instant magique et mémorable!`,
       },
       {
         id: 3,
@@ -163,7 +163,7 @@ export const benefitsData = {
       },
 
       description:
-        "Ce modelage offre une sensation de douceur, de détente intense et profonde par ces huiles et ces diverses plantes aromatiques et médicinales chaudes.Apaise et lève les blocages musculaires, assouplit la peau, réduit le stress, améliore le sommeil et apporte une bonne circulation du sang.Le parfum des herbes aromatiques procure une relaxation totale du corps et de l'esprit et transmet un équilibre complet.",
+        "Ce modelage offre une sensation de douceur, de détente intense et profonde par ces huiles et ces diverses plantes aromatiques et médicinales chaudes. Apaise et lève les blocages musculaires, assouplit la peau, réduit le stress, améliore le sommeil et apporte une bonne circulation du sang. Le parfum des herbes aromatiques procure une relaxation totale du corps et de l'esprit et transmet un équilibre complet.",
       prices: { firstPrice: "1h - 70€", secondPrice: "1h30 - 90€" },
     },
     {
@@ -176,7 +176,7 @@ export const benefitsData = {
         src: "/kansu.webp",
       },
 
-      description: `Cette pratique de massage à l'aide de Bols Kansu fabriqué de matières généreuses cuivre, bronze, zinc, or et argent apporte un calme et une sérénité profonde.Il diminue angoisse, agitation et nervosité anxieuses ainsi que le manque d'énergie.Il rétablit l'équilibre et l'harmonie dans le corps et l'esprit.Il contribue également à un sommeil de meilleure qualité. Il peut être associé à un massage ayurvédique.`,
+      description: `Cette pratique de massage à l'aide de Bols Kansu fabriqué de matières généreuses cuivre, bronze, zinc, or et argent apporte un calme et une sérénité profonde. Il diminue angoisse, agitation et nervosité anxieuses ainsi que le manque d'énergie. Il rétablit l'équilibre et l'harmonie dans le corps et l'esprit. Il contribue également à un sommeil de meilleure qualité. Il peut être associé à un massage ayurvédique.`,
       prices: {
         firstPrice: `<u>pied/main</u> 30min - 40€`,
         secondPrice: `<u>option Ayurvédique</u> 1h - 85€`,
@@ -216,14 +216,14 @@ export const benefitsData = {
       massageId: 3,
       title: "Massage instant pour soi",
       intro:
-        "Moment de détente  sur la zone précieuse du corps de votre choix (dos, cou, épaule, jambe, pied, bras ...)",
+        "Moment de détente sur la zone précieuse du corps de votre choix (dos, cou, épaule, jambe, pied, bras ...)",
       picture: {
         url: "https://www.freepik.com/free-photo/medical-massage-leg-physiotherapy-center_1492593.htm#fromView=search&page=1&position=52&uuid=9a255c76-b9af-4524-882e-6b0909b30d3e",
-        src: "instant.webp",
+        src: "/instant.webp",
       },
 
-      description:
-        "Ces instants massages offrent une détente personnalisée et une relaxation intense sur les parties du corps souhaitées par des mouvements de votre choix (doux, enveloppant stimulant, drainant ...).“A l'écoute de vos besoins“",
+      description: `Ces instants massages offrent une détente personnalisée et une relaxation intense sur les parties du corps souhaitées par des mouvements de votre choix (doux, enveloppant stimulant, drainant ...). 
+        “A l'écoute de vos besoins“`,
       prices: { firstPrice: "30 min - 40€", secondPrice: "1h - 60€" },
     },
     {
@@ -236,8 +236,8 @@ export const benefitsData = {
         src: "/visage.webp",
       },
 
-      description:
-        "Une relaxation du visage mais pas seulement, il permet une bonne circulation sanguine avec un objectif liftant rafraîchissant et hydratant. A l'aide de globe, de roller (jade, quartz rose, d'améthyste), pierres chaudes/froides, d'une huile ou une crème de votre choix, pour un teint plus rayonnant.",
+      description: `Une relaxation du visage mais pas seulement, il permet une bonne circulation sanguine avec un objectif liftant rafraîchissant et hydratant. 
+        A l'aide de globe, de roller (jade, quartz rose, d'améthyste), pierres chaudes/froides, d'une huile ou une crème de votre choix, vous sortirez un teint plus rayonnant.`,
       prices: { firstPrice: "30 min - 40€", secondPrice: "1h - 60€" },
     },
     // massage énergétique
@@ -252,7 +252,7 @@ export const benefitsData = {
       },
 
       description:
-        "La réflexologie plantaire est une méthode thérapeutique par le biais d'un massage et pressions qui utilise le processus d'auto guérison naturel du corps.Chaque zone du pied correspond à un organe ou à une partie du corps.Cette pratique soulage le corps par le pied.",
+        "La réflexologie plantaire est une méthode thérapeutique par le biais d'un massage et pressions qui utilise le processus d'auto guérison naturel du corps. Chaque zone du pied correspond à un organe ou à une partie du corps. Cette pratique soulage le corps par le pied.",
       prices: {
         firstPrice: "50 min - 55€",
         secondPrice: "Forfait 3 séances 125€",
@@ -269,7 +269,7 @@ export const benefitsData = {
       },
 
       description:
-        "La réflexologie palmaire est une pratique thérapeutique qui active les points réflexes situé sur les mains.Un massage doux et stimulant qui aidera à soulager  et harmoniser les principales fonctions physiologiques du corps et réduire le stress.Se soulager par la main!",
+        "La réflexologie palmaire est une pratique thérapeutique qui active les points réflexes situé sur les mains. Un massage doux et stimulant qui aidera à soulager et harmoniser les principales fonctions physiologiques du corps et réduire le stress.Se soulager par la main!",
       prices: {
         firstPrice: "50 min - 55€",
         secondPrice: "Forfait 3 séances 125€",
@@ -286,7 +286,7 @@ export const benefitsData = {
       },
 
       description:
-        "Issu de la médecine traditionnelle chinoise, ce massage minceur est pratiqué à l'aide de ventouse, d'un petit rouleau et par divers mouvements bien précis sur de nombreux points d'acupressions.Cette méthode naturelle agit sur les tissus sous cutanés et les amas graisseux. Il aidera à retrouver un corps léger.",
+        "Issu de la médecine traditionnelle chinoise, ce massage minceur est pratiqué à l'aide de ventouse, d'un petit rouleau et par divers mouvements bien précis sur de nombreux points d'acupressions. Cette méthode naturelle agit sur les tissus sous cutanés et les amas graisseux. Il aidera à retrouver un corps léger.",
       prices: { firstPrice: "1h - 70€", secondPrice: "Forfait 3 séances 180€" },
     },
     {
@@ -300,7 +300,7 @@ export const benefitsData = {
       },
 
       description:
-        "Cette pratique de massothérapie d'origine japonaise  utilisant des pressions des étirements des légères mobilisations permet de libérer les tensions les raideurs musculaires réduire l inconfort. Retrouver une énergie,  de la tonicité et de la vitalité dans l'ensemble du corps.",
+        "Cette pratique de massothérapie d'origine japonaise utilisant des pressions des étirements des légères mobilisations permet de libérer les tensions les raideurs musculaires réduire l'inconfort. Retrouver une énergie, de la tonicité et de la vitalité dans l'ensemble du corps.",
       prices: { firstPrice: "1h - 60€", secondPrice: "Forfait 3 séances 150€" },
     },
     {
@@ -379,13 +379,14 @@ export const pricesData = [
 
 export const aboutData = {
   title: `À propos de 
-  Escale Bien-être`,
-  description:
-    "Sarah Laurent, certifiée ”praticienne massage bien-être” vous souhaite la bienvenue sur son site et dans son espace cocooning.Bienveillante, à l'écoute, délicate, attentionnée, depuis plus de 20 ans dans le domaine de la santé auprès d'un public toutes générations, je vous propose de découvrir mes massages relaxants, apaisants ou dynamisants.Venez profiter de mon savoir-être et savoir-faire réunis pour une escale bien-être",
+  Escale Bien-être Massage`,
+  description: `Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à domicile et en institut à Chambéry et Bassens, en Savoie.
+    Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.`,
   info: `Séances sur rendez-vous
-  du Mardi au Samedi de 10h à 12h et de 14h à 19h.
+  du Lundi au Samedi de 9h à 18h.
 
-à votre domicile sur le secteur : Chambéry et alentours.
+À votre domicile sur le secteur : Chambéry et alentours.
+Ou en institut au : 
 
 Pour prendre RDV, par téléphone :
 

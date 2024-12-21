@@ -20,7 +20,9 @@ export default function Ambiances({ ambiances }) {
               />
             </div>
             <h4>{title} </h4>
-            <p>{intro}</p>
+            <p>
+              <strong>{intro}</strong>
+            </p>
             <p>{description}</p>
             <Buttons text={"Voir cette ambience"} href={`/service/${id}`} />
             <div className="bar"></div>

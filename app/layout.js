@@ -10,12 +10,12 @@ const ephesis = Ephesis({
 })
 
 const pacifico = Pacifico({
-  variable: '--font-pacifico',
+  variable: "--font-pacifico",
   subsets: ["latin"],
   weight: "400",
 })
 const comic = Comic_Neue({
-  variable: '--font-comic',
+  variable: "--font-comic",
   subsets: ["latin"],
   weight: "300",
 })
@@ -23,7 +23,7 @@ const comic = Comic_Neue({
 export const metadata = {
   title: "Escale Bien-être",
   description:
-    "Une bulle de bien être, un bonheur intense, un moment à soi de relaxation profonde et de lâcher prise venez découvrir les bienfaits du massages entre mes mains douces et bienveillantes",
+    "Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à domicile et en institut à Chambéry et Bassens, en Savoie. Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.",
 }
 
 export default function RootLayout({ children }) {

@@ -34,7 +34,7 @@ export default function Navbar({ children }) {
                   }
                   onClick={openMenu}
                 >
-                  Home
+                  Accueil
                 </p>
               </Link>
             </li>
