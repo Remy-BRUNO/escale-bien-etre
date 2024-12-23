@@ -21,9 +21,9 @@ const comic = Comic_Neue({
 })
 
 export const metadata = {
-  title: "Escale Bien-être",
+  title: "Escale Bien-être Massage",
   description:
-    "Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à domicile et en institut à Chambéry et Bassens, en Savoie. Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.",
+    "Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à domicile et en institut à Chambéry 73000 et Bassens 73000, en Savoie. Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.",
 }
 
 export default function RootLayout({ children }) {

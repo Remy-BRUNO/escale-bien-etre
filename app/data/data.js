@@ -24,9 +24,9 @@ export const giftCarddata = {
     url: "https://www.freepik.com/free-photo/beautiful-gift-voucher-with-decoration_21843747.htm#fromView=search&page=1&position=29&uuid=d9e2d338-abdf-48de-808c-4fd9b6a7087c",
     src: "/giftCard.webp",
   },
-  description: `Un plaisir bien-être à offrir.Au choix, Californien, pierres chaudes, ayurvédique, réflexologie ... 
+  description: `Un plaisir bien-être à offrir. Au choix, Californien, pierres chaudes, ayurvédique, réflexologie... 
     Une carte cadeau massage, pour lui, pour elle, c'est une réussite assurée, un moment de plaisir garanti.
-    Alors, en un clic, vous pouvez vous faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou bien, munissez vous de votre code unique lors de notre rendez- vous.`,
+    Alors, en un clic, vous pouvez faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou bien, munissez vous de votre code unique lors de notre rendez-vous.`,
 }
 
 export const benefitsData = {
@@ -36,7 +36,7 @@ export const benefitsData = {
     intro: `Une séance de massage pratiquée par mes soins, par passion et bienveillance débute par un accueil chaleureux. 
     Avant le début de la séance, un moment d'échange ensemble sera réalisé pour comprendre vos préférences, vos besoins spécifiques et les zones à cibler pendant le massage.
     Vous serez invité à vous allonger sur ma table confortable de massage généralement dévêtu pour certains soins et recouvert d'une serviette douce, assurant un confort et un respect de l'intimité maximale.
-    Vous plongerez dans une bulle de bien-être, laisserez vous guider et porter par mes gestes amples, souples, enveloppants, stimulants et doux...
+    Vous plongerez dans une bulle de bien-être, laissez-vous guider et porter par mes gestes amples, souples, enveloppants, stimulants et doux...
     
     Une ambiance et un massage cocooning rien que pour vous!
     Au plaisir de vous voir à mes côtés et de vous apporter le meilleur accompagnement bien-être!`,
@@ -89,7 +89,7 @@ export const benefitsData = {
           src: "/massage-energetique.webp",
         },
         description:
-          "L' énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde c'est ce massage qu'il vous convient! ",
+          "L'énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde c'est ce massage qu'il vous convient! ",
       },
     ],
   },
@@ -113,7 +113,7 @@ export const benefitsData = {
       environment: "massage du monde",
       massageId: 1,
       title: "Massage Ayurvédique",
-      intro: "Moment de relaxation, de raccourcissement et de lâcher-prise.",
+      intro: "Moment de relaxation, de ressourcement et de lâcher-prise.",
       picture: {
         url: "https://www.freepik.com/free-photo/honey-pouring-woman-s-naked-back-spa-salon_8224567.htm#fromView=search&page=1&position=18&uuid=51ad8ac2-3b92-4f04-a62a-b3fde5875a85",
         src: "/ayurvédique.webp",
@@ -380,13 +380,14 @@ export const pricesData = [
 export const aboutData = {
   title: `À propos de 
   Escale Bien-être Massage`,
-  description: `Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à domicile et en institut à Chambéry et Bassens, en Savoie.
+  picture: "/portrait.webp",
+  description: `Sarah Laurent, praticienne certifiée en massage bien-être, vous accueille chaleureusement sur son site. Avec plus de 20 ans d'expérience dans le domaine de la santé, elle propose des massages relaxants, apaisants et dynamisants à son domicile à Bassens et en institut à Chambéry, en Savoie.
     Découvrez son espace cocooning et profitez de son savoir-faire et de son écoute bienveillante pour une véritable escale bien-être.`,
   info: `Séances sur rendez-vous
   du Lundi au Samedi de 9h à 18h.
 
-À votre domicile sur le secteur : Chambéry et alentours.
-Ou en institut au : 
+À mon domicile : 53 rue Simone Veil 73000 Bassens.
+Ou en institut au : 4 Rue des Trois Dauphins, 73000 Chambéry
 
 Pour prendre RDV, par téléphone :
 
