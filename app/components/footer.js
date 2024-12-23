@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.wave1}>
         <div className={styles.contact}>
-          <h4>Laurent Sarah</h4>
+          <h4>Sarah Laurent</h4>
           <a href="mailto:laurentsarahpro14@gmail.com">
             📩 laurentsarahpro14@gmail.com
           </a>

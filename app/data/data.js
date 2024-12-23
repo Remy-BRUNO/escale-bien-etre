@@ -26,7 +26,7 @@ export const giftCarddata = {
   },
   description: `Un plaisir bien-être à offrir. Au choix, Californien, pierres chaudes, ayurvédique, réflexologie... 
     Une carte cadeau massage, pour lui, pour elle, c'est une réussite assurée, un moment de plaisir garanti.
-    Alors, en un clic, vous pouvez faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou bien, munissez vous de votre code unique lors de notre rendez-vous.`,
+    Alors, en un clic, vous pouvez faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou munissez vous de votre code unique lors de notre rendez-vous.`,
 }
 
 export const benefitsData = {
@@ -54,13 +54,13 @@ export const benefitsData = {
           src: "/massage-du-monde.webp",
         },
         description:
-          "Les bienfaits du massage sont connus depuis des millénaires. Au 4 coins du monde se développent des techniques qui apportent le repos et le bien-être. Découvrez les principaux massages du monde. Un voyage sensoriel dont vous reviendrez détendue!",
+          "Les bienfaits du massage sont connus depuis des millénaires. Au 4 coins du monde se développent des techniques qui apportent le repos et le bien-être. Découvrez les principaux massages du monde. Un voyage sensoriel dont vous reviendrez détendu!",
       },
       {
         id: 2,
         title: "Massage Eveil & Sens",
         intro:
-          "Aux pierres chaudes - Aux tampons herbeux - Aux bols Kansu - A la bougie - À l'huile chaude.",
+          "Aux pierres chaudes - Aux tampons herbeux - Aux bols Kansu - A la bougie - A l'huile chaude.",
         picture: {
           url: "https://www.freepik.com/free-photo/beautiful-arrangement-with-spa-stones-candles_5530864.htm",
           src: "/massage-eveil.webp",
@@ -77,7 +77,7 @@ export const benefitsData = {
           src: "/massage-decouverte.webp",
         },
         description:
-          "Un instant pour soi, une ambiance, une musique, vous avez besoin d'être relaxé et cocooner ce massage personnalisé est fait pour vous!",
+          "Un instant pour soi, une ambiance, une musique, vous avez besoin d'être relaxé et cocooné, ce massage personnalisé est fait pour vous!",
       },
       {
         id: 4,
@@ -89,7 +89,7 @@ export const benefitsData = {
           src: "/massage-energetique.webp",
         },
         description:
-          "L'énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde c'est ce massage qu'il vous convient! ",
+          "L'énergie circule dans tout notre corps par le biais des méridiens. Le massage énergétique permet de stimuler les méridiens afin d'améliorer la circulation du fluide énergétique. Vous cherchez à harmoniser votre corps et votre esprit, une relaxation profonde, c'est ce massage qu'il vous convient! ",
       },
     ],
   },
@@ -99,7 +99,7 @@ export const benefitsData = {
       environment: "massage du monde",
       massageId: 1,
       title: "Massage californien",
-      intro: "Moment de détente intense relaxant et apaisant",
+      intro: "Moment de détente intense relaxant et apaisant.",
       picture: {
         url: "https://www.freepik.com/free-photo/beauty-spa_10788395.htm#fromView=search&page=1&position=42&uuid=116ea015-5270-4abc-96b2-7b8997f46257",
         src: "/californien.webp",
@@ -176,7 +176,7 @@ export const benefitsData = {
         src: "/kansu.webp",
       },
 
-      description: `Cette pratique de massage à l'aide de Bols Kansu fabriqué de matières généreuses cuivre, bronze, zinc, or et argent apporte un calme et une sérénité profonde. Il diminue angoisse, agitation et nervosité anxieuses ainsi que le manque d'énergie. Il rétablit l'équilibre et l'harmonie dans le corps et l'esprit. Il contribue également à un sommeil de meilleure qualité. Il peut être associé à un massage ayurvédique.`,
+      description: `Cette pratique de massage à l'aide de Bols Kansu fabriqué de matières généreuses cuivre, bronze, zinc, or et argent apporte un calme et une sérénité profonde. Il diminue angoisse, agitation et nervosité ainsi que le manque d'énergie. Il rétablit l'équilibre et l'harmonie dans le corps et l'esprit. Il contribue également à un sommeil de meilleur qualité. Il peut être associé à un massage ayurvédique.`,
       prices: {
         firstPrice: `<u>pied/main</u> 30min - 40€`,
         secondPrice: `<u>option Ayurvédique</u> 1h - 85€`,
@@ -186,7 +186,7 @@ export const benefitsData = {
       environment: "massage eveil & sens",
       massageId: 2,
       title: "Massage à la bougie",
-      intro: "Moment doux  et fondant une  relaxation inoubliable",
+      intro: "Moment doux  et fondant une  relaxation inoubliable.",
       picture: {
         url: "https://www.freepik.com/free-photo/high-angle-man-holding-candle_38173013.htm#fromView=search&page=4&position=31&uuid=7060f957-6d67-43a2-821d-e1a8240320c1",
         src: "/bougies.webp",
@@ -200,7 +200,7 @@ export const benefitsData = {
       environment: "massage eveil & sens",
       massageId: 2,
       title: "Massage à l'huile chaude",
-      intro: "Moment harmonieux,  magique et de douceur",
+      intro: "Moment harmonieux,  magique et de douceur.",
       picture: {
         url: "bhttps://www.freepik.com/free-photo/tender-african-woman-smiling-enjoying-massage-with-closed-eyes-spa-resort_9028019.htm#fromView=search&page=1&position=11&uuid=bda36e58-d138-4d56-8dbd-03117a71e8a4",
         src: "/huiles.webp",
@@ -216,13 +216,13 @@ export const benefitsData = {
       massageId: 3,
       title: "Massage instant pour soi",
       intro:
-        "Moment de détente sur la zone précieuse du corps de votre choix (dos, cou, épaule, jambe, pied, bras ...)",
+        "Moment de détente sur la zone précieuse du corps de votre choix (dos, cou, épaule, jambe, pied, bras...).",
       picture: {
         url: "https://www.freepik.com/free-photo/medical-massage-leg-physiotherapy-center_1492593.htm#fromView=search&page=1&position=52&uuid=9a255c76-b9af-4524-882e-6b0909b30d3e",
         src: "/instant.webp",
       },
 
-      description: `Ces instants massages offrent une détente personnalisée et une relaxation intense sur les parties du corps souhaitées par des mouvements de votre choix (doux, enveloppant stimulant, drainant ...). 
+      description: `Ces instants massages offrent une détente personnalisée et une relaxation intense sur les parties du corps souhaitées par des mouvements de votre choix (doux, enveloppant stimulant, drainant...). 
         “A l'écoute de vos besoins“`,
       prices: { firstPrice: "30 min - 40€", secondPrice: "1h - 60€" },
     },
@@ -237,7 +237,7 @@ export const benefitsData = {
       },
 
       description: `Une relaxation du visage mais pas seulement, il permet une bonne circulation sanguine avec un objectif liftant rafraîchissant et hydratant. 
-        A l'aide de globe, de roller (jade, quartz rose, d'améthyste), pierres chaudes/froides, d'une huile ou une crème de votre choix, vous sortirez un teint plus rayonnant.`,
+        A l'aide de globe, de roller (jade, quartz rose, d'améthyste), pierres chaudes/froides, d'une huile ou une crème de votre choix, vous sortirez avec le teint plus rayonnant.`,
       prices: { firstPrice: "30 min - 40€", secondPrice: "1h - 60€" },
     },
     // massage énergétique
@@ -245,7 +245,7 @@ export const benefitsData = {
       environment: "massage énergétique",
       massageId: 4,
       title: "Réflexologie Plantaire",
-      intro: "Moment de détente  et d'apaisement du corp par le pied",
+      intro: "Moment de détente et d'apaisement du corp par le pied.",
       picture: {
         url: "https://www.freepik.com/free-photo/foot-massage-woman-spa_5953928.htm#fromView=search&page=2&position=34&uuid=be0647cf-5d7d-4d1f-a424-5c2446ec8a00",
         src: "/plantaire.webp",
@@ -262,14 +262,14 @@ export const benefitsData = {
       environment: "massage énergétique",
       massageId: 4,
       title: "Réflexologie Palmaire",
-      intro: "Moment de douceur et de sérénité par la main",
+      intro: "Moment de douceur et de sérénité par la main.",
       picture: {
         url: "https://www.freepik.com/free-photo/holding-hands-clapping-like-friends-close-up-shot-female-kid-s-hands-doing-different-things-together-family-home-education-childhood-charity-concept-mother-son-daughter-wealth_14584527.htm#fromView=search&page=1&position=40&uuid=90bd21b0-529e-4e35-b9fa-86ebe96b9a54",
         src: "/palmaire.webp",
       },
 
       description:
-        "La réflexologie palmaire est une pratique thérapeutique qui active les points réflexes situé sur les mains. Un massage doux et stimulant qui aidera à soulager et harmoniser les principales fonctions physiologiques du corps et réduire le stress.Se soulager par la main!",
+        "La réflexologie palmaire est une pratique thérapeutique qui active les points réflexes situé sur les mains. Un massage doux et stimulant qui aidera à soulager et harmoniser les principales fonctions physiologiques du corps et réduire le stress. Apaiser les tensions de corps par la main!",
       prices: {
         firstPrice: "50 min - 55€",
         secondPrice: "Forfait 3 séances 125€",
@@ -293,21 +293,22 @@ export const benefitsData = {
       environment: "massage énergétique",
       massageId: 4,
       title: "Le shiatsu",
-      intro: "Moment de relâchement, de vitalité et de détente",
+      intro: "Moment de relâchement, de vitalité et de détente.",
       picture: {
         url: "https://www.freepik.com/free-photo/young-woman-relaxing-spa-salon_8224724.htm#fromView=search&page=1&position=34&uuid=51ad8ac2-3b92-4f04-a62a-b3fde5875a85",
         src: "/shiatsu.webp",
       },
 
       description:
-        "Cette pratique de massothérapie d'origine japonaise utilisant des pressions des étirements des légères mobilisations permet de libérer les tensions les raideurs musculaires réduire l'inconfort. Retrouver une énergie, de la tonicité et de la vitalité dans l'ensemble du corps.",
+        "Cette pratique de massothérapie d'origine japonaise, utilisant des pressions des étirements des légères mobilisations, permet de libérer les tensions, les raideurs musculaires, réduire l'inconfort. Retrouver une énergie, de la tonicité et de la vitalité dans l'ensemble du corps.",
       prices: { firstPrice: "1h - 60€", secondPrice: "Forfait 3 séances 150€" },
     },
     {
       environment: "massage énergétique",
       massageId: 4,
       title: "Massage Amma Assi",
-      intro: "Moment de décontraction et de libérations du stress du quotidien",
+      intro:
+        "Moment de décontraction et de libérations du stress du quotidien.",
       picture: {
         url: "https://www.freepik.com/free-photo/side-view-hands-massaging-woman-s-back_26412513.htm#fromView=search&page=1&position=0&uuid=ea2a7aae-09a3-4abf-a97c-0531a776c65c",
         src: "/amma.webp",
@@ -325,7 +326,7 @@ export const pricesData = [
     title: "Massage du monde",
     massages: [
       {
-        name: "Californien, Ayurvédique, Polynésien (Lomi Lomi)",
+        name: "Californien Ayurvédique Polynésien (Lomi Lomi)",
         price: ["1h - 70€", "1h30 - 90€"],
       },
     ],
@@ -358,7 +359,7 @@ export const pricesData = [
     title: "Massage découverte",
     massages: [
       {
-        name: "Instant pour soi, Modelage liftant visage & buste",
+        name: "Instant pour soi Modelage liftant visage & buste",
         price: ["30 min - 40€", "1h - 60€"],
       },
     ],
@@ -367,7 +368,7 @@ export const pricesData = [
     title: "Massage Énergétique",
     massages: [
       {
-        name: "Réflexologie Plantaire, Réflexologie Palmaire",
+        name: "Réflexologie Plantaire Réflexologie Palmaire",
         price: ["50 min - 55€", "Forfait 3 séances 125€"],
       },
       { name: "Tui Na minceur", price: ["1h - 70€", "Forfait 3 séances 180€"] },
