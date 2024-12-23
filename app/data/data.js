@@ -35,7 +35,7 @@ export const benefitsData = {
     subtitle: "Déroulement d'une séance",
     intro: `Une séance de massage pratiquée par mes soins, par passion et bienveillance débute par un accueil chaleureux. 
     Avant le début de la séance, un moment d'échange ensemble sera réalisé pour comprendre vos préférences, vos besoins spécifiques et les zones à cibler pendant le massage.
-    Vous serez invité à vous allonger sur ma table confortable de massage généralement dévêtu pour certains soins et recouvert d'une serviette douce, assurant un confort et un respect de l'intimité maximale.
+    Vous serez invité à vous allonger sur ma table confortable de massage, généralement dévêtu pour certains soins et recouvert d'une serviette douce, assurant un confort et un respect de l'intimité maximale.
     Vous plongerez dans une bulle de bien-être, laissez-vous guider et porter par mes gestes amples, souples, enveloppants, stimulants et doux...
     
     Une ambiance et un massage cocooning rien que pour vous!
@@ -326,6 +326,7 @@ export const pricesData = [
     title: "Massage du monde",
     massages: [
       {
+        massageId: 1,
         name: "Californien Ayurvédique Polynésien (Lomi Lomi)",
         price: ["1h - 70€", "1h30 - 90€"],
       },
@@ -334,9 +335,18 @@ export const pricesData = [
   {
     title: "Massage Eveil & Sens",
     massages: [
-      { name: "Aux pierres chaudes", price: ["1h - 85€", "1h30 - 105€"] },
-      { name: "Aux tampons herbeux", price: ["1h - 70€", "1h30 - 90€"] },
       {
+        massageId: 2,
+        name: "Aux pierres chaudes",
+        price: ["1h - 85€", "1h30 - 105€"],
+      },
+      {
+        massageId: 2,
+        name: "Aux tampons herbeux",
+        price: ["1h - 70€", "1h30 - 90€"],
+      },
+      {
+        massageId: 2,
         name: "Aux Bols Kansu",
         price: [
           `pied/main 
@@ -345,11 +355,9 @@ export const pricesData = [
           1h - 85€`,
         ],
       },
+      { massageId: 2, name: "à la bougie", price: ["1h - 70€", "1h30 - 90€"] },
       {
-        name: "à la bougie",
-        price: ["1h - 70€", "1h30 - 90€"],
-      },
-      {
+        massageId: 2,
         name: "à l'huile chaude",
         price: ["1h - 70€", "1h30 - 90€"],
       },
@@ -359,6 +367,7 @@ export const pricesData = [
     title: "Massage découverte",
     massages: [
       {
+        massageId: 3,
         name: "Instant pour soi Modelage liftant visage & buste",
         price: ["30 min - 40€", "1h - 60€"],
       },
@@ -368,12 +377,21 @@ export const pricesData = [
     title: "Massage Énergétique",
     massages: [
       {
+        massageId: 4,
         name: "Réflexologie Plantaire Réflexologie Palmaire",
         price: ["50 min - 55€", "Forfait 3 séances 125€"],
       },
-      { name: "Tui Na minceur", price: ["1h - 70€", "Forfait 3 séances 180€"] },
-      { name: "Shiatsu", price: ["1h - 60€", "Forfait 3 séances 150€"] },
-      { name: "Amma Assi", price: ["30 min - 40€"] },
+      {
+        massageId: 4,
+        name: "Tui Na minceur",
+        price: ["1h - 70€", "Forfait 3 séances 180€"],
+      },
+      {
+        massageId: 4,
+        name: "Shiatsu",
+        price: ["1h - 60€", "Forfait 3 séances 150€"],
+      },
+      { massageId: 4, name: "Amma Assi", price: ["30 min - 40€"] },
     ],
   },
 ]

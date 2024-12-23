@@ -1,5 +1,6 @@
 import { pricesData } from "@/app/data/data"
 import styles from "./tarifs.module.css"
+import Link from "next/link"
 export default function Tarifs() {
   return (
     <div className={styles.tarifs}>
@@ -11,7 +12,9 @@ export default function Tarifs() {
               {priceData.massages.map((massage) => {
                 return (
                   <div key={massage.name} className={styles.prices}>
-                    <h5 className={styles.subtitle}>{massage.name}</h5>
+                    <Link href={`/service/${massage.massageId}`}>
+                      <h5 className={styles.subtitle}>{massage.name}</h5>
+                    </Link>
                     {massage.price.map((price) => {
                       return <p key={price}>{price}</p>
                     })}
