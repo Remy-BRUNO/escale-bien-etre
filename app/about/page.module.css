@@ -10,6 +10,12 @@
   gap: 2rem;
   margin-bottom: 3rem;
 }
+.aboutMe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
 .portrait {
   position: relative;
   width: 250px;
@@ -17,4 +23,20 @@
   background-color: aliceblue;
   border-radius: 50%;
   overflow: hidden;
+}
+@media only screen and (min-width: 900px) {
+  .aboutMe {
+    flex-direction: row-reverse;
+    flex-shrink: 1;
+    gap: 1rem;
+    align-items: center;
+    width: 80%;
+  }
+  .intro {
+    flex-grow: 2;
+    width: 60%;
+  }
+  .portrait {
+    flex-shrink: 1;
+  }
 }

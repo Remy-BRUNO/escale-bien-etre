@@ -7,14 +7,16 @@ export default function About() {
   return (
     <main className={styles.main}>
       <h2>{title}</h2>
-      <p>{description}</p>
-      <div className={styles.portrait}>
-        <Image
-          alt="Sarah Laurent"
-          src={picture}
-          fill
-          sizes="(max-width: 500px) 100vw"
-        />
+      <div className={styles.aboutMe}>
+        <p className={styles.intro}>{description}</p>
+        <div className={styles.portrait}>
+          <Image
+            alt="Sarah Laurent"
+            src={picture}
+            fill
+            sizes="(max-width: 500px) 100vw"
+          />
+        </div>
       </div>
       <h3>Me Contacter</h3>
       <p>{info}</p>
