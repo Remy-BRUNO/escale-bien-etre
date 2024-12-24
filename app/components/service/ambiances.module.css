@@ -5,6 +5,7 @@
   max-width: 90vw;
   align-items: center;
   gap: 2rem;
+  margin-bottom: 3rem;
 }
 .ambiances {
   display: flex;
