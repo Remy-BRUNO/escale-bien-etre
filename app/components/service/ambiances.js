@@ -16,16 +16,19 @@ export default function Ambiances({ ambiances }) {
                 src={picture.src}
                 alt={title}
                 fill
+                sizes="(max-width: 500px) 100vw"
                 style={{ objectFit: "cover" }}
               />
             </div>
-            <h4>{title} </h4>
-            <p>
-              <strong>{intro}</strong>
-            </p>
-            <p>{description}</p>
-            <Buttons text={"Voir cette ambiance"} href={`/service/${id}`} />
-            <div className="bar"></div>
+            <div className={styles.info}>
+              <h4>{title} </h4>
+              <p>
+                <strong>{intro}</strong>
+              </p>
+              <p>{description}</p>
+              <Buttons text={"Voir cette ambiance"} href={`/service/${id}`} />
+              <div className="bar"></div>
+            </div>
           </div>
         )
       })}

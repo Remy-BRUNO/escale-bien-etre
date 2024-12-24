@@ -17,9 +17,9 @@ export default async function Massages({ params }) {
   return (
     <div className={styles.main}>
       {ambiancesFiltered.map((ambiance) => {
-        const { title, description } = ambiance
+        const { title, description, id } = ambiance
         return (
-          <div className={styles.presentation}>
+          <div key={id} className={styles.presentation}>
             <h3>{title}</h3>
             <p>{description}</p>
           </div>
@@ -27,7 +27,7 @@ export default async function Massages({ params }) {
       })}
       <div className={styles.benefits}>
         {massagesFiltered.map((massageById) => {
-          const { title, intro, description, picture } = massageById
+          const { title, intro, description, picture, massageId } = massageById
           return (
             <div key={title} className={styles.ambiance}>
               <div className={styles.ambiancePicture}>
@@ -35,13 +35,20 @@ export default async function Massages({ params }) {
                   src={picture.src}
                   alt={title}
                   fill
+                  sizes="(max-width: 500px) 100vw"
                   style={{ objectFit: "cover" }}
                 />
               </div>
-              <h4>{title} </h4>
-              <p>{intro}</p>
-              <p>{description}</p>
-              <div className="bar"></div>
+              <div className={styles.info}>
+                <h4>{title} </h4>
+                <p>{intro}</p>
+                <p>{description}</p>
+                <div className={styles.buttons}>
+                  <Buttons text={"Reserver"} href={`/about`} />
+                  <Buttons text={"Offrir"} href={`/prices`} />
+                </div>
+                <div className="bar"></div>
+              </div>
             </div>
           )
         })}

@@ -36,7 +36,7 @@ export default function Benefits() {
       </div>
       <div className={styles.outro}>
         <p>{benefits.outro}</p>
-        <Buttons href={"/"} text={"Me Contacter"} />
+        <Buttons href={"/about"} text={"Me Contacter"} />
         <div className="bar"></div>
       </div>
     </section>

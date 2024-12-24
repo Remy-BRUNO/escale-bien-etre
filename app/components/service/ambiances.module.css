@@ -23,8 +23,21 @@
   gap: 1rem;
 }
 .ambiancePicture {
+  flex-shrink: 1;
   position: relative;
   width: 100%;
   max-width: 500px;
   aspect-ratio: 16/10;
+}
+.info {
+  flex-shrink: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+@media only screen and (min-width: 900px) {
+  .ambiance {
+    flex-direction: row;
+  }
 }
