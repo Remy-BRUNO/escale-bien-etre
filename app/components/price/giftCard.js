@@ -82,11 +82,7 @@ export default function GiftCard() {
           method="post"
           target="_blank"
         >
-          <input
-            className={styles.pp}
-            type="submit"
-            value="Choisir et Offrir"
-          />
+          <input className={styles.pp} type="submit" value="Choisir/Offrir" />
           <Image
             src={"https://www.paypalobjects.com/images/Debit_Credit_APM.svg"}
             alt="card"
