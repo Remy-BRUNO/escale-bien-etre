@@ -46,7 +46,8 @@ export default async function Massages({ params }) {
                 <p>{description}</p>
 
                 <Link className={styles.buttons} href={`/prices`}>
-                  Tarifs/Réserver/Offrir
+                  <p>Tarifs</p>
+                  <p>Réserver/Offrir</p>
                 </Link>
 
                 <div className="bar"></div>

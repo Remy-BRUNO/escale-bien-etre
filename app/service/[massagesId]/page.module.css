@@ -61,8 +61,7 @@
   }
 }
 .buttons {
-  width: 11rem;
-  padding: 0.2rem 0.5rem;
+  padding: 0.5rem 1rem;
   background: var(--button-color);
   border-radius: 100px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
