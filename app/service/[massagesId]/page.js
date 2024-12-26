@@ -2,6 +2,7 @@ import styles from "./page.module.css"
 import { benefitsData } from "../../data/data"
 import Image from "next/image"
 import Buttons from "@/app/ui/buttons"
+import Link from "next/link"
 
 export default async function Massages({ params }) {
   const { massagesId } = await params
@@ -43,10 +44,11 @@ export default async function Massages({ params }) {
                 <h4>{title} </h4>
                 <p>{intro}</p>
                 <p>{description}</p>
-                <div className={styles.buttons}>
-                  <Buttons text={"Reserver"} href={`/about`} />
-                  <Buttons text={"Offrir"} href={`/prices`} />
-                </div>
+
+                <Link className={styles.buttons} href={`/prices`}>
+                  Tarifs/Réserver/Offrir
+                </Link>
+
                 <div className="bar"></div>
               </div>
             </div>

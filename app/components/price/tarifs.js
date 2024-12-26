@@ -1,6 +1,7 @@
 import { pricesData } from "@/app/data/data"
 import styles from "./tarifs.module.css"
 import Link from "next/link"
+import Buttons from "@/app/ui/buttons"
 export default function Tarifs() {
   return (
     <div className={styles.tarifs}>
@@ -25,6 +26,7 @@ export default function Tarifs() {
           </div>
         )
       })}
+      <Buttons href={"/about"} text={"Réserver"} />
     </div>
   )
 }
