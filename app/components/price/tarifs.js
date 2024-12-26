@@ -26,7 +26,7 @@ export default function Tarifs() {
           </div>
         )
       })}
-      <Buttons href={"/about"} text={"Réserver"} />
+      <Buttons href={"/about"} text={"Me contacter Réserver"} />
     </div>
   )
 }
