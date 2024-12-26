@@ -26,7 +26,7 @@ export const giftCarddata = {
   },
   description: `Un plaisir bien-être à offrir. Au choix, Californien, pierres chaudes, ayurvédique, réflexologie... 
     Une carte cadeau massage, pour lui, pour elle, c'est une réussite assurée, un moment de plaisir garanti.
-    Alors, en un clic, vous pouvez faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou munissez vous de votre code unique lors de notre rendez-vous.`,
+    Alors, en un clic, vous pouvez faire plaisir! C'est simple, faites votre choix, payez en ligne et imprimez votre bon chez vous ou munissez-vous de votre code unique lors de notre rendez-vous.`,
 }
 
 export const benefitsData = {

@@ -27,7 +27,7 @@ export default function GiftCard() {
             <li>A l'huile chaude</li>
           </ul>
           <p>
-            <strong>(durée1h) 70€</strong>
+            <strong>(durée 1h) 70€</strong>
           </p>
         </div>
         <div className={styles.card}>
@@ -50,7 +50,7 @@ export default function GiftCard() {
           </div>
           <ul className={styles.liste}>
             <li>Instant pour soi</li>
-            <li>Liftant visage et buste</li>
+            <li>Liftant visage & buste</li>
             <li>Réfléxologie plantaire</li>
             <li>Réfléxologie palmaire</li>
             <li>Shiatsu</li>
@@ -85,7 +85,7 @@ export default function GiftCard() {
           <input
             className={styles.pp}
             type="submit"
-            value="Choisir et Acheter"
+            value="Choisir et Offrir"
           />
           <Image
             src={"https://www.paypalobjects.com/images/Debit_Credit_APM.svg"}
